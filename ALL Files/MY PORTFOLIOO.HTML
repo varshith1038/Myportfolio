@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VARSHITH PORTFOLIO</title>
+    <link rel="stylesheet" href="MY PORRFOLIO.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: rgba(0, 0, 33, 0.776);
+            color: white;
+        }
+
+        nav {
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 55px;
+            background-color: rgb(36, 4, 65);
+        }
+
+
+
+        nav ul {
+
+            display: flex;
+            justify-content: center;
+        }
+
+
+        nav ul li {
+            list-style: none;
+            margin: 0px 23px;
+        }
+
+        nav ul li .navb {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(25, 71, 106);
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0px;
+        }
+
+        .firstSection>div {
+            width: 34%;
+            border-radius: 5px;
+
+
+        }
+
+        .leftSection {
+
+            font-size: 2rem;
+            margin: 42px 30px;
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 30px;
+        }
+
+        .namecolor {
+            color: rgb(214, 95, 15);
+        }
+
+        .string {
+            color: rgb(214, 95, 15);
+        }
+
+        .secondSection table,
+        tr,
+        th,
+        td {
+            font-size: 15px;
+            width: 60%;
+            height: 100px;
+            border: solid black 1px;
+            margin-left: 100px;
+            text-align: center;
+        }
+
+        tr {
+            transition: transform .2s;
+
+        }
+
+        th {
+            font-size: 20px;
+        }
+
+        .secondSection {
+            height: 800px;
+        }
+
+        td,
+        th {
+            padding: 0px 15px;
+        }
+
+        th {
+            background-color: white;
+            color: black;
+        }
+
+        .edu {
+            margin-left: 100px;
+            margin-bottom: 10px;
+        }
+
+        tr:hover {
+            transform: scale(1.2);
+            background-color: black;
+        }
+
+        hr {
+            border: 0;
+            background: rgba(153, 153, 226);
+            height: 2px;
+            margin: 0 70px 0 70px;
+        }
+
+        .thirdSection .box {
+            border: solid white;
+            height: 1px;
+            width: 90%;
+            display: flex;
+            padding: 0px 0 35px 0PX;
+            margin: 50px 100px 0 53px;
+        }
+
+        .music {
+            font-size: x-large;
+            /* margin-right: -323px; */
+            margin-left: 134px;
+            margin-top: 50px;
+            color: black;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .music img {
+            width: 30%;
+            margin-right: -346px;
+            margin-left: 0px;
+        }
+
+        .code {
+            font-size: x-large;
+            width: 14%;
+            margin-top: 37px;
+            margin-left: 87px;
+            color: rgb(2, 2, 2);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .riding {
+            margin-left: 120px;
+            font-size: x-large;
+            color: black;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .riding img {
+            width: 38%;
+            margin-top: 79px;
+            margin-left: -10px;
+
+        }
+
+        .Movie {
+            margin-top: 59px;
+            margin-right: 30px;
+            font-size: x-large;
+            color: black;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .Movie img {
+            width: 56%;
+            margin-right: 93px;
+        }
+
+        .social {
+            margin-top: 70px;
+            height: 300px;
+            margin-left: 80px;
+        }
+
+        .line {
+            height: 2px;
+            width: 84%;
+            background: rgb(255, 255, 255);
+            margin: 0 70px 0 40px;
+            display: flex;
+            margin-top: 40px;
+        }
+
+        .vertical {
+            background-color: white;
+            width: 1px;
+            height: 0;
+            margin: 0 110px;
+        }
+
+        .gmail {
+            position: relative;
+            top: -25px;
+        }
+
+        p {
+            width: 100px;
+            font-size: x-small;
+            color: grey;
+            position: relative;
+            top: 5px;
+
+        }
+
+        .vertical img {
+            width: 24px;
+            position: relative;
+            top: -26px;
+            right: 4px;
+            transition: transform .2s;
+        }
+
+        .vertical img:hover {
+            transform: scale(1.4);
+        }
+
+
+
+
+
+        .li {
+            margin: -24px 0 0 5px;
+        }
+
+        .li1 {
+            color: rgb(0, 0, 255);
+            font-size: small;
+            margin: 10px 0 0 5px;
+
+        }
+
+        .li2 {
+            width: 180px;
+            font-size: x-small;
+            color: grey;
+            margin: 14px 0 0 5px;
+        }
+
+
+
+
+        footer {
+            margin: 50px 0;
+            background-color: #0b113a;
+            height: 180px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        footer .footer1 {
+            padding: 49px 15px;
+        }
+
+        footer .footer2 {
+            list-style: none;
+            padding: 14px;
+        }
+
+        .footer3 {
+            text-align: center;
+            font-size: small;
+        }
+
+        .buttons {
+            margin: -32px 1px 17px 108px;
+        }
+
+        .buttons .btn {
+            background: black;
+            padding: 15px;
+            color: #bf4a06;
+            border-radius: 20px;
+            border-color: white;
+
+        }
+
+        button {
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Varshith's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a class="navb" href="/">Home</a></li>
+                    <li><a class="navb" href="/">About</a></li>
+                    <li><a class="navb" href="/">Services</a></li>
+                    <li><a class="navb" href="/">Projects</a></li>
+                    <li><a class="navb" href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, my name is <span>
+                    <class class="namecolor">Varshith</class>
+                </span>
+                <span id="element"></span>
+
+            </div>
+
+
+            <div class="rightSection">
+                <img src="developer.png" alt="">
+            </div>
+
+        </section>
+
+        <div class="buttons">
+            <a href="VAR FINAL RESUME.pdf"> <button class="btn">Resume</button></a>
+            <a href="https://github.com/varshith1038"> <button class="btn">Github</button></a>
+        </div>
+        <hr>
+        <div class="text-grey" style="font-size: smaller; color: grey; margin: 50px 0  0 100px;">Academic Details</div>
+        <h1 class="edu">Education</h1>
+        <section class="secondSection">
+            <div class="Education">
+                <table>
+                    <tr>
+                        <th>DEGREE</th>
+                        <th>BOARD</th>
+                        <th>INSTITUTE</th>
+                        <th>PERCENTAGE/CGPA</th>
+                    </tr>
+
+                    <tr>
+                        <td>BTECH</td>
+                        <TD>Autonomous (2020-2024)</TD>
+                        <td>Vidya Jyothi Institute of Technology</td>
+                        <td>7.31 CGPA</td>
+                    </tr>
+
+                    <tr>
+                        <td>Class XII</td>
+                        <td>State Syllabus (2018-2020)</td>
+                        <td>Rao's Junior College</td>
+                        <td>91.5%</td>
+                    </tr>
+                    <tr>
+                        <td>Class X</td>
+                        <td>State Syllabus (2017-2018)</td>
+                        <td>New Little Scholars School</td>
+                        <td>87%</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="social">
+                <h2>My social Activities</h2>
+                <div class="line">
+                    <div class="vertical">
+                        <img src="gmail.png" alt="">
+                        <div class="li">Gmail:</div>
+                        <div class="li1">varshithdoranala@gmail.com</div>
+
+                        <div class="li2">This is my professional E-mail</div>
+
+                    </div>
+
+                    <div class="vertical">
+                        <img src="linked.png" alt="">
+                        <div class="li">LinkedIn</div>
+                        <a class="li1" style="font-size: small; position: relative; top: 7px;"
+                            href="http://www.linkedin.com/in/varshith-d-42ba76249">Profile</a>
+                        <div class="li2">I am mantaininng this since from 2 years</div>
+
+                    </div>
+
+                    <div class="vertical">
+
+                        <img src="insta.png" alt="">
+                        <div class="li">Instagram</div>
+                        <div class="li1" style="font-size: small;">@Varshith_Doranala_1234</div>
+                        <div class="li2">This is my professional and friendly profile</div>
+
+                    </div>
+                    <div class="vertical"></div>
+                </div>
+            </div>
+
+
+
+
+
+        </section>
+
+        <section class="thirdSection">
+            <div class="box">
+                <h1>HOBBIES:</h1>
+            </div>
+
+            <div style="display: flex;">
+                <div class="music">Music
+                    <img src="music.png" alt="">
+                </div>
+                <div class="code">Coding<img src="coding.svg" alt="">
+                </div>
+            </div>
+
+            <div style="display: flex;">
+                <div class="riding">Riding
+                    <img src="Biker.png" alt="">
+                </div>
+                <div class="Movie">Movies
+                    <img src="movie.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer">
+                <div class="footer1">VARSHITH'S PORTFOLIO</div>
+                <div class="footer2">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Projects</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer3">
+                Copyright &#169; www.varshithsportfolio.com | All Rights Reserved</div>
+        </footer>
+
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['I am a <div class="string">fresher</div>', '  I am enthusiastic to work in <div class="string">Software Development</div> '],
+            typeSpeed: 60,
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>
